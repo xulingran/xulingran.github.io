@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>凌晨blog</title>
   
-  
+  <subtitle>不积跬步，无以至千里；不积小流，无以成江海</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
