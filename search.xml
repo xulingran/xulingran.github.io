@@ -146,7 +146,7 @@
       </tags>
   </entry>
   <entry>
-    <title>hexo配置</title>
+    <title>2020年将 Hexo 部署到 Github 上作为免费博客</title>
     <url>/post/4668/</url>
     <content><![CDATA[<h1 id="2020年将-Hexo-部署到-Github-上作为免费博客"><a href="#2020年将-Hexo-部署到-Github-上作为免费博客" class="headerlink" title="2020年将 Hexo 部署到 Github 上作为免费博客"></a>2020年将 Hexo 部署到 Github 上作为免费博客</h1><blockquote>
 <p>我相信许多人有着想建一个属于自己的博客的想法，接下来我就来讲讲如何在 Github 上部署 Hexo 作为博客。<br>本次安装环境为 Windows 10。</p>
@@ -166,5 +166,11 @@
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo g</span><br><span class="line">hexo s</span><br></pre></td></tr></table></figure>
 <p>执行完成后，你就可以访问（<a href="localhost:4000">localhost:4000</a>）来看看 Hexo 的效果了</p>
 ]]></content>
+      <categories>
+        <category>Hexo</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
+      </tags>
   </entry>
 </search>

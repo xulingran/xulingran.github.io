@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://xulingran.tk/"/>
-  <updated>2020-04-25T08:14:45.267Z</updated>
+  <updated>2020-04-25T08:19:20.407Z</updated>
   <id>http://xulingran.tk/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>hexo配置</title>
+    <title>2020年将 Hexo 部署到 Github 上作为免费博客</title>
     <link href="http://xulingran.tk/post/4668/"/>
     <id>http://xulingran.tk/post/4668/</id>
     <published>2020-04-25T08:10:51.000Z</published>
-    <updated>2020-04-25T08:14:45.267Z</updated>
+    <updated>2020-04-25T08:19:20.407Z</updated>
     
     <content type="html"><![CDATA[<h1 id="2020年将-Hexo-部署到-Github-上作为免费博客"><a href="#2020年将-Hexo-部署到-Github-上作为免费博客" class="headerlink" title="2020年将 Hexo 部署到 Github 上作为免费博客"></a>2020年将 Hexo 部署到 Github 上作为免费博客</h1><blockquote><p>我相信许多人有着想建一个属于自己的博客的想法，接下来我就来讲讲如何在 Github 上部署 Hexo 作为博客。<br>本次安装环境为 Windows 10。</p></blockquote><a id="more"></a><h2 id="安装-Hexo"><a href="#安装-Hexo" class="headerlink" title="安装 Hexo"></a>安装 Hexo</h2><h3 id="安装-Node-js"><a href="#安装-Node-js" class="headerlink" title="安装 Node.js"></a>安装 Node.js</h3><p>在Node.js官网下载 LTS 版本（<a href="https://nodejs.org/dist/v12.16.2/node-v12.16.2-x64.msi" target="_blank" rel="noopener">点击跳转</a>）。在写本篇文章时 Node.js 版本为 <em>12.16.2</em>。下载后直接打开安装包，全程无脑下一步。完成后在 CMD 中输入</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm -v</span><br></pre></td></tr></table></figure><p>来确认版本。</p><h3 id="安装-Git"><a href="#安装-Git" class="headerlink" title="安装 Git"></a>安装 Git</h3><p>在 Git 的官网下载（<a href="https://git-scm.com/downloads" target="_blank" rel="noopener">点击跳转</a>）。在写本篇文章时 Git 版本为 <em>2.26.2</em> 。依旧无脑下一步。<br>安装完成后在 CMD 中输入</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git --version</span><br></pre></td></tr></table></figure><p>来查验 Git 是否安装成功。</p><h3 id="下载-Hexo"><a href="#下载-Hexo" class="headerlink" title="下载 Hexo"></a>下载 Hexo</h3><p>在硬盘中新建一个文件夹用来放 Hexo ，这里我选择在D盘新建 blog 文件夹来存放 Hexo 文件。在打开 blog 文件夹后，右键选中 Git Bash Here ，在打开的窗口中输入</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install -g hexo</span><br></pre></td></tr></table></figure><p>这一步所需时间可能较长，视网速而定。在完成后，输入</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo init</span><br></pre></td></tr></table></figure><p>在文件夹中安装 Hexo 。这一步仍然需要较长时间，所以请耐心等候。<br>完成后依次输入（分别为生成文件和启动服务）</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo g</span><br><span class="line">hexo s</span><br></pre></td></tr></table></figure><p>执行完成后，你就可以访问（<a href="localhost:4000">localhost:4000</a>）来看看 Hexo 的效果了</p>]]></content>
     
@@ -34,6 +34,10 @@
     </summary>
     
     
+      <category term="Hexo" scheme="http://xulingran.tk/categories/Hexo/"/>
+    
+    
+      <category term="Hexo" scheme="http://xulingran.tk/tags/Hexo/"/>
     
   </entry>
   
@@ -87,7 +91,7 @@
     <link href="http://xulingran.tk/post/14512/"/>
     <id>http://xulingran.tk/post/14512/</id>
     <published>2020-04-22T14:17:00.000Z</published>
-    <updated>2020-04-25T04:12:33.085Z</updated>
+    <updated>2020-04-25T08:19:27.987Z</updated>
     
     <content type="html"><![CDATA[<h2 id="以下是代码示例"><a href="#以下是代码示例" class="headerlink" title="以下是代码示例"></a>以下是代码示例</h2><p><em>用此代码来引用”\source\images\内的照片</em></p><a id="more"></a><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">![alt](/images/xx.jpg)</span><br></pre></td></tr></table></figure><p><strong>#后加空格加文字为标题</strong></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 此为一级标题</span></span><br><span class="line"><span class="comment">## 二级</span></span><br><span class="line"><span class="comment">### 三级</span></span><br><span class="line"><span class="comment">#### 四级</span></span><br><span class="line"><span class="comment">##### 五级</span></span><br><span class="line"><span class="comment">###### 六级</span></span><br></pre></td></tr></table></figure><h4 id="效果"><a href="#效果" class="headerlink" title="效果"></a>效果</h4><hr><h1 id="此为一级标题"><a href="#此为一级标题" class="headerlink" title="此为一级标题"></a>此为一级标题</h1><h2 id="二级"><a href="#二级" class="headerlink" title="二级"></a>二级</h2><h3 id="三级"><a href="#三级" class="headerlink" title="三级"></a>三级</h3><h4 id="四级"><a href="#四级" class="headerlink" title="四级"></a>四级</h4><h5 id="五级"><a href="#五级" class="headerlink" title="五级"></a>五级</h5><h6 id="六级"><a href="#六级" class="headerlink" title="六级"></a>六级</h6><hr><p><strong>加粗</strong></p><p>要加粗的文字左右分别用两个*号包起来</p><p><strong>斜体</strong></p><p>要倾斜的文字左右分别用一个*号包起来</p><p><strong>斜体加粗</strong></p><p>要倾斜和加粗的文字左右分别用三个*号包起来</p><p><strong>删除线</strong></p><p>要加删除线的文字左右分别用两个~~号包起来</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">**这是加粗的文字**</span><br><span class="line">*这是倾斜的文字*`</span><br><span class="line">***这是斜体加粗的文字***</span><br><span class="line">~~这是加删除线的文字~~</span><br></pre></td></tr></table></figure><h4 id="效果-1"><a href="#效果-1" class="headerlink" title="效果"></a>效果</h4><p><strong>这是加粗的文字</strong><br><em>这是倾斜的文字</em>`<br><strong><em>这是斜体加粗的文字</em></strong><br><del>这是加删除线的文字</del></p>]]></content>
     
