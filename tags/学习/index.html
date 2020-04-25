@@ -359,7 +359,7 @@
         <a href="mailto:lingchen2020@outlook.com" title="电子邮件 → mailto:lingchen2020@outlook.com" rel="noopener" target="_blank"><i class="fa fa-envelope fa-fw"></i>电子邮件</a>
       </span>
       <span class="links-of-author-item">
-        <a href="https://weibo.com/7284914941" title="网页微博 → https:&#x2F;&#x2F;weibo.com&#x2F;7284914941" rel="noopener" target="_blank"><i class="fab fa-weibo fa-fw"></i>网页微博</a>
+        <a href="https://weibo.com/7284914941" title="网易微博 → https:&#x2F;&#x2F;weibo.com&#x2F;7284914941" rel="noopener" target="_blank"><i class="fab fa-weibo fa-fw"></i>网易微博</a>
       </span>
       <span class="links-of-author-item">
         <a href="https://passport.baidu.com/v6/ucenter" title="百度云盘 → https:&#x2F;&#x2F;passport.baidu.com&#x2F;v6&#x2F;ucenter" rel="noopener" target="_blank"><i class="fa fa-heartbeat fa-fw"></i>百度云盘</a>
@@ -752,9 +752,14 @@ if(canvas.getContext){
                 console.error('Failed to save visitor count', error);
               });
           } else {
-              leancloudSelector(url).innerText = 'Counter not initialized! More info at console err msg.';
-              console.error('ATTENTION! LeanCloud counter has security bug, see how to solve it here: https://github.com/theme-next/hexo-leancloud-counter-security. \n However, you can still use LeanCloud without security, by setting `security` option to `false`.');
-            
+              Counter('post', '/classes/Counter', { title, url, time: 1 })
+                .then(response => response.json())
+                .then(() => {
+                  leancloudSelector(url).innerText = 1;
+                })
+                .catch(error => {
+                  console.error('Failed to create', error);
+                });
           }
         })
         .catch(error => {
@@ -781,7 +786,7 @@ if(canvas.getContext){
         });
     }
 
-    let { app_id, app_key, server_url } = {"enable":true,"app_id":"OaCTRXQyWpkGTi4sQJCwFOYm-gzGzoHsz","app_key":"QEoxATIJV2vDjkFeogOdOPIv","server_url":null,"security":true};
+    let { app_id, app_key, server_url } = {"enable":true,"app_id":"OaCTRXQyWpkGTi4sQJCwFOYm-gzGzoHsz","app_key":"QEoxATIJV2vDjkFeogOdOPIv","server_url":"xulingran.tk","security":false};
     function fetchData(api_server) {
       var Counter = (method, url, data) => {
         return fetch(`${api_server}/1.1${url}`, {
