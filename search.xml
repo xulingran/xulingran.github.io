@@ -33,4 +33,15 @@
         <tag>Hexo</tag>
       </tags>
   </entry>
+  <entry>
+    <title>Hexo NexT 7.X版本配置指南（更新中）</title>
+    <url>/post/31505/</url>
+    <content><![CDATA[<!-- build time:Sun Apr 26 2020 20:11:00 GMT+0800 (GMT+08:00) --><blockquote><p>接下来我会讲讲如何配置NexT主题，本次使用的NexT版本为7.8。</p></blockquote><h1 id="语言设置为中文"><a href="#语言设置为中文" class="headerlink" title="语言设置为中文"></a>语言设置为中文</h1><p>在Hexo根目录中的<code>_config.yml</code>中，将 language后的值更改为 <code>zh-CN</code>并重新生成。</p><h1 id="设置圆形头像并增加动画"><a href="#设置圆形头像并增加动画" class="headerlink" title="设置圆形头像并增加动画"></a>设置圆形头像并增加动画</h1><p>在主题的<code>_config.yml</code>中找到<code>avator</code>项，将<code>url</code>项后的#号去掉，再将<code>rounded</code>、<code>rotated</code>的值改为<code>true</code>，并将你想设置的头像名字改为avatar.gif放入<code>hexo根目录/source/images/</code>中（没有images文件夹就新建一个）</p><h1 id="在侧边栏和页面底部增加版权信息"><a href="#在侧边栏和页面底部增加版权信息" class="headerlink" title="在侧边栏和页面底部增加版权信息"></a>在侧边栏和页面底部增加版权信息</h1><p>在主题文件夹下的<code>_config.yml</code>中找到<code>creative_commons</code>项，按照下图更改<img src="Hexo%20NexT%207.X%E7%89%88%E6%9C%AC%E9%85%8D%E7%BD%AE%E6%8C%87%E5%8D%97/%E7%85%A7%E7%89%87%202020%E5%B9%B44%E6%9C%8826%E6%97%A5%20200539.jpg" alt=""></p><h1 id="使用不蒜子计算访客数和访问量"><a href="#使用不蒜子计算访客数和访问量" class="headerlink" title="使用不蒜子计算访客数和访问量"></a>使用不蒜子计算访客数和访问量</h1><h1 id="生成阅读更多按钮"><a href="#生成阅读更多按钮" class="headerlink" title="生成阅读更多按钮"></a>生成<code>阅读更多</code>按钮</h1><p>在正文你希望在主页不可见的部分前加入</p><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;!—-more—-&gt;</span><br></pre></td></tr></table></figure><p>就可以了。</p><!-- rebuild by neat -->]]></content>
+      <categories>
+        <category>Hexo</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
+      </tags>
+  </entry>
 </search>
