@@ -1,7 +1,7 @@
 title: Hexo NexT 7.X版本配置指南（更新中）
 tags: Hexo
 categories: Hexo
-top: 50
+top: 
 abbrlink: 31505
 date: 2020-04-26 20:08:26
 password:
@@ -89,3 +89,6 @@ live2d:
 # 右上角增加 Follow me on GitHub 图标
 在主题配置文件中找到`github_banner`，根据自己的想法改。如下图。
 ![mark](http://q9ejyjh5c.bkt.clouddn.com/blog/20200427/OfW4xtaUIq95.png?imageslim)
+
+# 备份Hexo源文件到GitHub
+>参考https://blog.csdn.net/qq_41793001/article/details/103151182

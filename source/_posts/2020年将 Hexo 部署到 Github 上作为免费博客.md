@@ -22,6 +22,7 @@ npm -v
 ## 安装 Git
 在 Git 的官网下载（[点击跳转](https://git-scm.com/downloads)）。在写本篇文章时 Git 版本为 *2.26.2* 。依旧无脑下一步。
 安装完成后在 CMD 中输入
+
 ```bash
 git --version
 ```
@@ -116,3 +117,17 @@ cnpm install hexo-deployer-git --save
 hexo d
 ```
 正常情况下此时你就可以登录 `http://你的 Github 用户名.github.io` 访问你的博客了。我的博客就是 ([https://lingcheblog.tk](https://lingchenblog.tk)），因为 Github 在中国访问不是很稳定，所以我在`Coding`又搭了一个一模一样的博客。如果有兴趣的话，也可以上去看看，网址是`https://xulingran.tk`。接下来我会写写如何配置 NexT 主题。
+
+>参考：https://www.cnblogs.com/liuxianan/p/build-blog-website-by-hexo-github.html
+
+> 附录：命令示例
+>
+> ```bash
+> hexo g = hexo generate       生成文件
+> hexo s = hexo server         创建本地服务器（本地预览）
+> hexo d = hexo deploy         上传至服务器
+> hexo clean                   删除生成的public文件夹
+> ```
+>
+> 更多命令可执行`hexo`命令查看
+
