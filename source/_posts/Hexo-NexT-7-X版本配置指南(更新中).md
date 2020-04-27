@@ -85,3 +85,7 @@ const live2d_path = "/live2d-widget/";
 live2d:
   enable: true
 ```
+
+# 右上角增加 Follow me on GitHub 图标
+在主题配置文件中找到`github_banner`，根据自己的想法改。如下图。
+![mark](http://q9ejyjh5c.bkt.clouddn.com/blog/20200427/OfW4xtaUIq95.png?imageslim)
