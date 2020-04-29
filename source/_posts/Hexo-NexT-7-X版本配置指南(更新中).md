@@ -11,10 +11,10 @@ copyright:
 <!--more-->
 # 语言设置为中文
 在Hexo根目录中的`_config.yml`中，将 language后的值更改为 `zh-CN`并重新生成。如下图所示
-![mark](http://q9ejyjh5c.bkt.clouddn.com/blog/20200427/Om8bpJe1bw6I.png?imageslim)
+![mark](https://xulingran-1301400118.cos.ap-shenzhen-fsi.myqcloud.com/%E4%B8%AD%E6%96%87.png)
 # 设置圆形头像并增加动画
 在主题的`_config.yml`中找到`avator`项，将`url`项后的#号去掉，再将`rounded`、`rotated`的值改为`true`，并将你想设置的头像名字改为avatar.gif放入`hexo根目录/source/images/`中（没有images文件夹就新建一个）
-![mark](http://q9ejyjh5c.bkt.clouddn.com/blog/20200427/7QrPtorWGdFS.png?imageslim)
+![mark](https://xulingran-1301400118.cos.ap-shenzhen-fsi.myqcloud.com/%E5%A4%B4%E5%83%8F.png)
 # 在侧边栏和页面底部增加版权信息
 在主题文件夹下的`_config.yml`中找到`creative_commons`项，按照下图更改
 ![alt](/images/2.png)
@@ -29,7 +29,7 @@ copyright:
 
 # 将页面底部的标签前的‘#’号改成图标
 在主题配置文件中找到`tag_icon`项，改为`true`。
-![mark](http://q9ejyjh5c.bkt.clouddn.com/blog/20200427/ULeajXKq6faG.png?imageslim)
+![mark](https://xulingran-1301400118.cos.ap-shenzhen-fsi.myqcloud.com/%E6%A0%87%E7%AD%BE.png)
 
 # 压缩博文提高访问速度
 在Hexo根目录下执行
@@ -88,7 +88,31 @@ live2d:
 
 # 右上角增加 Follow me on GitHub 图标
 在主题配置文件中找到`github_banner`，根据自己的想法改。如下图。
-![mark](http://q9ejyjh5c.bkt.clouddn.com/blog/20200427/OfW4xtaUIq95.png?imageslim)
+![mark](https://xulingran-1301400118.cos.ap-shenzhen-fsi.myqcloud.com/%E5%85%B3%E6%B3%A8.png)
 
-# 备份Hexo源文件到GitHub
->参考https://blog.csdn.net/qq_41793001/article/details/103151182
+# 在每篇文章末尾添加“本文结束”字样
+
+在`\themes\next\layout\_macro`中新建文件`passage-end-tag.swig`，添加以下内容
+
+```bash
+<div>
+    {% if not is_index %}
+        <div style="text-align:center;color: #ccc;font-size:14px;">-------------本文结束<i class="fa fa-paw"></i>感谢您的阅读-------------</div>
+    {% endif %}
+</div>
+
+```
+
+接着打开`\themes\next\layout\_macro\post.swig`文件，在`END POST BODY` 之前添加如下代码
+
+```
+<div>
+  {% if not is_index %}
+    {% include 'passage-end-tag.swig' %}
+  {% endif %}
+</div>
+```
+
+如图
+
+![mark](https://xulingran-1301400118.cos.ap-shenzhen-fsi.myqcloud.com/%E6%9C%AC%E6%96%87%E7%BB%93%E6%9D%9F.png)
