@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://xulingran.tk/"/>
-  <updated>2020-05-06T03:44:20.815Z</updated>
+  <updated>2020-05-06T03:50:26.959Z</updated>
   <id>http://xulingran.tk/</id>
   
   <author>
@@ -21,17 +21,14 @@
     <link href="http://xulingran.tk/post/45316/"/>
     <id>http://xulingran.tk/post/45316/</id>
     <published>2020-05-06T03:34:52.000Z</published>
-    <updated>2020-05-06T03:44:20.815Z</updated>
+    <updated>2020-05-06T03:50:26.959Z</updated>
     
-    <content type="html"><![CDATA[<blockquote><p>本篇教程依赖于<code>OpenKirin</code>项目。官网网址<a href="https://openkirin.net/" target="_blank" rel="noopener">https://openkirin.net/</a></p></blockquote><h1 id="解锁bootloader"><a href="#解锁bootloader" class="headerlink" title="解锁bootloader"></a>解锁bootloader</h1><p>这一步没什么好说的，淘宝上有很多解锁的商家。随便选一家就好了，在10~30元左右。记住他发过来的解锁码。</p><h1 id="刷入OmniRom"><a href="#刷入OmniRom" class="headerlink" title="刷入OmniRom"></a>刷入OmniRom</h1><p>确认你的手机已解锁，具体表现为在开机时会显示下图的内容</p><p><img src="https://xulingran-1301400118.cos.ap-shenzhen-fsi.myqcloud.com/mate8%E6%95%99%E7%A8%8B/IMG_5319.HEIC" alt=""></p><h1 id="安装奇兔TWRP"><a href="#安装奇兔TWRP" class="headerlink" title="安装奇兔TWRP"></a>安装奇兔TWRP</h1><h1 id="注意事项"><a href="#注意事项" class="headerlink" title="注意事项"></a>注意事项</h1>]]></content>
+    <content type="html"><![CDATA[<blockquote><p>本篇教程依赖于<code>OpenKirin</code>项目。官网网址<a href="https://openkirin.net/" target="_blank" rel="noopener">https://openkirin.net/</a></p><a id="more"></a></blockquote><h1 id="解锁bootloader"><a href="#解锁bootloader" class="headerlink" title="解锁bootloader"></a>解锁bootloader</h1><p>这一步没什么好说的，淘宝上有很多解锁的商家。随便选一家就好了，在10~30元左右。记住他发过来的解锁码。</p><h1 id="刷入OmniRom"><a href="#刷入OmniRom" class="headerlink" title="刷入OmniRom"></a>刷入OmniRom</h1><p>确认你的手机已解锁，具体表现为在开机时会显示下图的内容</p><p><img src="https://xulingran-1301400118.cos.ap-shenzhen-fsi.myqcloud.com/mate8%E6%95%99%E7%A8%8B/IMG_5319.HEIC" alt=""></p><h1 id="安装奇兔TWRP"><a href="#安装奇兔TWRP" class="headerlink" title="安装奇兔TWRP"></a>安装奇兔TWRP</h1><h1 id="注意事项"><a href="#注意事项" class="headerlink" title="注意事项"></a>注意事项</h1>]]></content>
     
     <summary type="html">
     
-      
-      
-        &lt;blockquote&gt;
-&lt;p&gt;本篇教程依赖于&lt;code&gt;OpenKirin&lt;/code&gt;项目。官网网址&lt;a href=&quot;https://openkirin.net/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://openkirin.net/&lt;/
-      
+      &lt;blockquote&gt;
+&lt;p&gt;本篇教程依赖于&lt;code&gt;OpenKirin&lt;/code&gt;项目。官网网址&lt;a href=&quot;https://openkirin.net/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://openkirin.net/&lt;/a&gt;&lt;/p&gt;
     
     </summary>
     
