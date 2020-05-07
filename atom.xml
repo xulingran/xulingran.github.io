@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://xulingran.tk/"/>
-  <updated>2020-05-06T03:50:26.959Z</updated>
+  <updated>2020-05-07T17:03:11.756Z</updated>
   <id>http://xulingran.tk/</id>
   
   <author>
@@ -17,18 +17,17 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>将mate8刷上类原生安卓-OmniRom</title>
+    <title>将mate8刷上类原生安卓-OmniRom（更新中）</title>
     <link href="http://xulingran.tk/post/45316/"/>
     <id>http://xulingran.tk/post/45316/</id>
     <published>2020-05-06T03:34:52.000Z</published>
-    <updated>2020-05-06T03:50:26.959Z</updated>
+    <updated>2020-05-07T17:03:11.756Z</updated>
     
-    <content type="html"><![CDATA[<blockquote><p>本篇教程依赖于<code>OpenKirin</code>项目。官网网址<a href="https://openkirin.net/" target="_blank" rel="noopener">https://openkirin.net/</a></p><a id="more"></a></blockquote><h1 id="解锁bootloader"><a href="#解锁bootloader" class="headerlink" title="解锁bootloader"></a>解锁bootloader</h1><p>这一步没什么好说的，淘宝上有很多解锁的商家。随便选一家就好了，在10~30元左右。记住他发过来的解锁码。</p><h1 id="刷入OmniRom"><a href="#刷入OmniRom" class="headerlink" title="刷入OmniRom"></a>刷入OmniRom</h1><p>确认你的手机已解锁，具体表现为在开机时会显示下图的内容</p><p><img src="https://xulingran-1301400118.cos.ap-shenzhen-fsi.myqcloud.com/mate8%E6%95%99%E7%A8%8B/IMG_5319.HEIC" alt=""></p><h1 id="安装奇兔TWRP"><a href="#安装奇兔TWRP" class="headerlink" title="安装奇兔TWRP"></a>安装奇兔TWRP</h1><h1 id="注意事项"><a href="#注意事项" class="headerlink" title="注意事项"></a>注意事项</h1>]]></content>
+    <content type="html"><![CDATA[<!-- build time:Fri May 08 2020 01:03:20 GMT+0800 (GMT+08:00) --><blockquote><p>本篇教程依赖于<code>OpenKirin</code>项目。官网网址<a href="https://openkirin.net/" target="_blank" rel="noopener">https://openkirin.net/</a></p><a id="more"></a></blockquote><h1 id="注意事项"><a href="#注意事项" class="headerlink" title="注意事项"></a>注意事项</h1><h2 id="①"><a href="#①" class="headerlink" title="①"></a>①</h2><p>若在初次关机后无法开机，显示数据损坏的话，进入奇兔TWRP，在<code>高级</code>菜单中选择<code>移除data分区强制加密</code>即可解决问题。<strong><em>此操作会清除所有数据，因此最好在初次启动系统前完成。</em></strong></p><h2 id="②"><a href="#②" class="headerlink" title="②"></a>②</h2><p>如果在解锁后有升级或者重装EMUI的操作，请将手机上锁后重新解锁。具体步骤请看<a href="https://club.huawei.com/thread-4948399-1-1.html" target="_blank" rel="noopener"><strong>华为手机bootloader上锁回锁教程及ADB工具下载——精华帖</strong></a></p><h2 id="③"><a href="#③" class="headerlink" title="③"></a>③</h2><p>确保您的手机系统版本为<code>EMUI 8</code>，否则这篇教程可能不适合您的手机。</p><h2 id="④"><a href="#④" class="headerlink" title="④"></a>④</h2><p>刷机有风险！请在刷机前做好资料备份的实际准备以及<strong>手机可能变砖</strong>的心理准备。本教程不承担任何因按照本教程刷机却最终变砖、资料丢失的后果！<strong><em>请做好资料备份！！！</em></strong></p><h1 id="解锁bootloader"><a href="#解锁bootloader" class="headerlink" title="解锁bootloader"></a>解锁bootloader</h1><p>这一步没什么好说的，淘宝上有很多解锁的商家。随便选一家就好了，在10~30元左右。请记住他发过来的解锁码。后续步骤可能要用到。</p><h1 id="刷入OmniRom"><a href="#刷入OmniRom" class="headerlink" title="刷入OmniRom"></a>刷入OmniRom</h1><p>确认你的手机已解锁，具体表现为在开机时会显示下图的内容</p><p><img src="https://xulingran-1301400118.cos.ap-shenzhen-fsi.myqcloud.com/mate8%E6%95%99%E7%A8%8B/1.HEIC" alt=""></p><p>在<code>OpenKirin</code>官网下载刷机包。<a href="https://openkirin.net/" target="_blank" rel="noopener">传送门</a>。<strong>请下载在<code>EMUI 8-based Builds</code>标题以下的包。</strong>因为某些原因，若您无法访问网站或下载速度不稳定，请采取某种特殊的上网姿势。笔者下载的包名称为<code>openkirin_omnirom_pie_20191125_alpha_6.2.img</code>。若有需要的话，笔者会在以后将其上传至baidu网盘。</p><p><img src="https://xulingran-1301400118.cos.ap-shenzhen-fsi.myqcloud.com/mate8%E6%95%99%E7%A8%8B/2.jpg" alt=""></p><h1 id="刷入奇兔TWRP"><a href="#刷入奇兔TWRP" class="headerlink" title="刷入奇兔TWRP"></a>刷入奇兔TWRP</h1><p>在电脑上安装<code>奇兔刷机</code>软件。<a href="http://www.7to.cn/" target="_blank" rel="noopener">官网传送</a>。然后先将手机关机。在长按<strong>音量减键</strong>的情况下插入连接至电脑的数据线，当手机屏幕上出现安卓小机器人以及<code>FASTBOOT</code>字样时，打开<code>奇兔刷机</code>软件，找到<code>recorvery</code>刷入选项。点击刷入即可。刷入完成后，执行以下命令，在出现以下画面时按住<strong>音量+键</strong>4秒即可进入<code>奇兔TWRP</code>。</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">fastboot reboot</span><br></pre></td></tr></table></figure><p><img src="https://xulingran-1301400118.cos.ap-shenzhen-fsi.myqcloud.com/mate8%E6%95%99%E7%A8%8B/1.HEIC" alt=""></p><!-- rebuild by neat -->]]></content>
     
     <summary type="html">
     
-      &lt;blockquote&gt;
-&lt;p&gt;本篇教程依赖于&lt;code&gt;OpenKirin&lt;/code&gt;项目。官网网址&lt;a href=&quot;https://openkirin.net/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://openkirin.net/&lt;/a&gt;&lt;/p&gt;
+      &lt;!-- build time:Fri May 08 2020 01:03:20 GMT+0800 (GMT+08:00) --&gt;&lt;blockquote&gt;&lt;p&gt;本篇教程依赖于&lt;code&gt;OpenKirin&lt;/code&gt;项目。官网网址&lt;a href=&quot;https://openkirin.net/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://openkirin.net/&lt;/a&gt;&lt;/p&gt;
     
     </summary>
     
