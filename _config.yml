@@ -123,6 +123,7 @@ permalink: post/:abbrlink/
 abbrlink:
   alg: crc16  # 算法：crc16(default) and crc32
   rep: dec    # 进制：dec(default) and hex
+  
 # hexo-neat
 # 博文压缩
 neat_enable: true
@@ -138,7 +139,7 @@ neat_css:
 # 压缩js
 neat_js:
   enable: false
-  mangle: true
+  mangle: false
   output:
   compress:
   exclude:
@@ -152,6 +153,7 @@ neat_js:
     - '**/utils.js'
     - '**/pisces.js'
     - '**/next-boot.js'
+    
 # 百度链接自动提交
 baidu_url_submit:
   count: 6 # 提交最新的链接数量

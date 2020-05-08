@@ -1,4 +1,4 @@
-title: Hexo NexT 7.X版本配置指南（更新中）
+title: Hexo NexT 7.X版本配置指南
 tags: Hexo
 categories: Hexo
 top: 
