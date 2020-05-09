@@ -46,14 +46,17 @@ npm install -g cnpm --registry=https://registry.npm.taobao.org
 ```bash
 cnpm install -g hexo-cli
 ```
-这一步所需时间可能较长，视网速而定。在完成后，输入
+在完成后，输入
 ```bash
 hexo init
 ```
-在文件夹中安装 Hexo 。这一步仍然需要较长时间，所以请耐心等候。
+在文件夹中安装 Hexo 。这一步可能需要较长时间，所以请耐心等候。
 完成后依次输入（分别为生成文件和启动服务）
+
 ```bash
 hexo g
+```
+```
 hexo s
 ```
 执行完成后，你就可以访问（[http://localhost:4000](http://localhost:4000)）来看看 Hexo 的效果了
@@ -76,6 +79,18 @@ git clone https://github.com/Shen-Yu/hexo-theme-ayer.git themes/ayer
 没什么好说的，注册就好了。
 ## 新建一个 Repositories 
 新建一个名称为`【你的 Github 用户名】.github.io`的 Repositories 。注意 Repositories 的名称只能为`【你的 Github 用户名】.github.io`。不然后续很麻烦。也由此可得一个账户只能创建一个网站。就是说如果你的 Github 用户名为`example`，那么你的 Repositories 的名字就是 `example.github.io`。
+
+# 配置SSH
+
+在`Git Bash`中依次输入以下代码（`yourname`改为GitHub用户名，`youremail`改为GitHub的注册邮箱）
+
+```
+git config --global user.name "yourname"
+```
+```
+git config --global user.email "youremail"
+```
+
 ## 查看 SSH 密钥
 查看`C:\Users\你的系统用户名\`下是否有`.ssh`文件夹，如果没有，则执行
 ```bash
@@ -116,7 +131,7 @@ cnpm install hexo-deployer-git --save
 ```sh
 hexo d
 ```
-正常情况下此时你就可以登录 `http://你的 Github 用户名.github.io` 访问你的博客了。我的博客就是 ([https://lingcheblog.tk](https://lingchenblog.tk)），因为 Github 在中国访问不是很稳定，所以我在`Coding`又搭了一个一模一样的博客。如果有兴趣的话，也可以上去看看，网址是`https://xulingran.tk`。接下来我会写写如何配置 NexT 主题。
+正常情况下此时你就可以登录 `http://你的 Github 用户名.github.io` 访问你的博客了。我的博客就是 ([https://lingchenblog.tk](https://lingchenblog.tk)），因为 Github 在中国访问不是很稳定，所以我在`Coding`又搭了一个一模一样的博客。如果有兴趣的话，也可以上去看看，网址是`https://xulingran.tk`。接下来我会写写如何配置 NexT 主题。
 
 >参考：https://www.cnblogs.com/liuxianan/p/build-blog-website-by-hexo-github.html
 
