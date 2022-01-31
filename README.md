@@ -3,7 +3,3 @@
 可用网址为：
 
 https://lingchenblog.tk/
-
-https://xulingran.tk/
-
-https://zhongpersonal.club/ 首选
